@@ -4,4 +4,4 @@ nav:
   - About: About.md
   - Overview: Overview.md
 theme:
-  name: mkdocs
+  name: material
