@@ -1,7 +1,0 @@
-site_name: My Documentation World
-nav:
-  - Home: index.md
-  - About: about.md
-  - Overview: overview.md
-theme:
-  name: mkdocs
