@@ -1,3 +1,2 @@
 # Getting Started
-
-Here's how to begin using this documentation site.
+This is the get started page. You will learn how to get started quickly.
