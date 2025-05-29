@@ -1,4 +1,4 @@
-site_name: My Documentation World
+site_name: This Is My Docsite
 nav:
   - Home: index.md
   - About: About.md
