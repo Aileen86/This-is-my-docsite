@@ -1,8 +1,9 @@
-name: Deploy MkDocs site
+name: Deploy MkDocs
 
 on:
   push:
-    branches: [ main ]
+    branches:
+      - main
 
 jobs:
   deploy:
@@ -19,8 +20,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install mkdocs mkdocs-material
+          pip install mkdocs
 
-      - name: Deploy with MkDocs
-        run: |
-          mkdocs gh-deploy --force
+      - name: Deploy MkDocs site
+        run: mkdocs gh-deploy --force --remote-name origin
